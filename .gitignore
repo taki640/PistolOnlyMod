@@ -1,0 +1,14 @@
+# Directories
+.vs/
+.idea/
+bin/
+bin-int/
+!ThirdParty/Premake5/bin
+
+# Files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.sln.dotsettings
+*.sln.dotsettings.user
