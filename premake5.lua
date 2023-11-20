@@ -11,6 +11,7 @@ project "PistolOnlyMod"
     kind "SharedLib"
     language "C++"
     cppdialect "C++20"
+    targetname "PistolOnly"
     targetextension ".asi"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
